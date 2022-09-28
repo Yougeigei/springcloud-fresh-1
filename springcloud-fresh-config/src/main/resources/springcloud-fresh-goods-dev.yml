@@ -2,9 +2,9 @@ spring:
    datasource:
       type: com.alibaba.druid.pool.DruidDataSource
       driverClassName: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/fresh?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+      url: jdbc:mysql://81.69.56.215:3306/dailyfresh?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
       username: root
-      password: a
+      password: 7464c98e135ccea2
    
    http:
       encoding:
@@ -17,7 +17,7 @@ spring:
       
    redis:
       database: 0
-      host: 127.0.0.1
+      host: 81.69.56.215
       port: 6379
       password: 
       timeout: 5000
